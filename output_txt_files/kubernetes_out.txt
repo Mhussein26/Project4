@@ -1,0 +1,14 @@
+kubectl.exe port-forward flaskskapp 8000:80AbdelHak@DESKTOP-79VH88M:/mnt/c/Users/mohamed/project4/DevOps_Microservices/project-ml-microservice-kubernetes$ ./run_kubernetes.sh 
+pod/flaskskapp created
+NAME               READY   STATUS              RESTARTS   AGE
+flaskskapp         0/1     ContainerCreating   0          0s
+flaskskearlndemo   1/1     Running             0          45d
+error: unable to forward port because pod is not running. Current status=Pending
+
+
+
+
+AbdelHak@DESKTOP-79VH88M:/mnt/c/Users/mohamed/project4/DevOps_Microservices/project-ml-microservice-kubernetes$ kubectl.exe get pod
+NAME               READY   STATUS    RESTARTS   AGE
+flaskskapp         1/1     Running   0          7m30s
+flaskskearlndemo   1/1     Running   0          45d
